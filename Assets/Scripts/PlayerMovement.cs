@@ -9,8 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public float playerSpeed = 6.5f;
     public float jumpForce = 10.5f;
     private float horizontalInput;
-   
-
+    
     void Awake()
     {
         _rigidBody = GetComponent<Rigidbody2D>();
